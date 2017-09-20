@@ -1,3 +1,17 @@
+# Caffe Faster RCNN Cpp version for Windows
+This is Caffe Windows version of https://github.com/D-X-Y/caffe-faster-rcnn/tree/dev 
+
+I cloned caffe windows branch on 19.09.17 and copied all FCRNN directories on it. These steps are required to successfully build:
+- Copy all FCRNN directories accordingly.
+- Change caffe.proto
+- Adjust all Cmakelists.txt files
+- Json Parser gives an error with original config files. Correct the line starts with "Anchors:"
+
+And that is all. I build under win7 with vs2015. Demo runs perfectly. you can change build_win.cmd to adjust. 
+
+
+Rest of the ReadMe is from original windows branch.
+
 # Windows Caffe
 
 **This is an experimental, community based branch led by Guillaume Dumont (@willyd). It is a work-in-progress.**
